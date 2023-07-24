@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+      }
+
+body img {
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.3rem;
+}
+    
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-top: 1rem;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos gerais para o <body> */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para as imagens dentro do <body> */
+body img {
+    height: 300px;
+    width: 400px;
+    
+    border-radius: 15px;
+}
+
+/* Estilos para o <header> */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+   
+}
+
+/* Estilos para o logotipo (imagem) dentro do <header> */
+header img {
+    max-height: 100px;
+    width: auto;
+    border-radius: 15px;
+    margin-right: 1rem; /* Adiciona um espaçamento à direita para afastar o texto */
+}
+
+/* Estilos para a tag <h1> dentro do <header> */
+header h1 {
+    margin: 0; /* Remove as margens para evitar espaçamento extra */
+}
+
+/* Estilos para o contêiner de produtos com classe .products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Estilos para os produtos .product, .product img, .product h2, .product p, 
+button e footer */
+.product {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-top: 1rem;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para o <footer> */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
